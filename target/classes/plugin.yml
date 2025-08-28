@@ -1,0 +1,23 @@
+name: TodayWife
+version: 1.0.0
+main: com.todayWife.TodayWife
+api-version: 1.13
+author: 蓝影
+description: 今日老婆插件 - 随机获取每日老婆并互动
+folia-supported: true
+
+commands:
+  todaywife:
+    description: 主命令
+    aliases: [tw]
+    usage: /<command> [start|hate|kiss|molest|hug|bondage|caress|info|reload]
+
+permissions:
+  todaywife.reload:
+    description: 允许重载插件配置
+    default: op
+  todaywife.*:
+    description: 所有TodayWife权限
+    default: op
+    children:
+      todaywife.reload: true

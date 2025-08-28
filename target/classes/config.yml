@@ -1,0 +1,21 @@
+# TodayWife 配置文件
+# 作者: 蓝影
+
+# 插件开关
+enabled: true
+
+# 互动功能设置
+interactions:
+  kiss: true
+  molest: true
+  hug: true
+  bondage: true
+  caress: true
+
+# 语言文件设置
+language: zh_CN
+
+# 音效设置
+sounds:
+  wife-selected: true
+  interaction: true
