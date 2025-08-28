@@ -1,0 +1,34 @@
+# 繁體中文語言文件
+
+# 幫助信息
+help:
+  - "&6&lTodayWife &7- 今日老婆插件"
+  - "&e/tw start &7- 隨機獲取今日老婆"
+  - "&e/tw hate &7- 解除與老婆的關係"
+  - "&e/tw kiss &7- 親吻老婆"
+  - "&e/tw molest &7- 調戲老婆"
+  - "&e/tw hug &7- 擁抱老婆"
+  - "&e/tw bondage &7- SM互動"
+  - "&e/tw caress &7- 撫摸老婆"
+  - "&e/tw info &7- 查看老婆信息"
+  - "&e/tw reload &7- 重載配置(OP)"
+
+# 消息
+already-have-wife: "&c你今天已經有老婆了!"
+no-wife: "&c你還沒有老婆呢，使用 /tw start 獲取一個吧!"
+wife-selected: "&a恭喜! 你今天的妻子是: &6{wife}"
+wife-removed: "&c你已經解除了與今天老婆的關係"
+config-reloaded: "&a配置已重載!"
+no-permission: "&c你沒有權限執行此命令!"
+interaction-disabled: "&c該互動功能已被禁用"
+
+# 互動消息
+interaction:
+  kiss: "&a你親吻了 {player}，好感度{change}"
+  molest: "&a你調戲了 {player}，好感度{change}"
+  hug: "&a你擁抱了 {player}，好感度{change}"
+  bondage: "&a你與 {player} 進行了SM互動，好感度{change}"
+  caress: "&a你撫摸了 {player}，好感度{change}"
+
+# 老婆信息
+wife-info: "&6你的老婆: &e{wife} &6| &e好感度: &a{affection}"

@@ -1,0 +1,34 @@
+# English Language File
+
+# Help Information
+help:
+  - "&6&lTodayWife &7- Today's Wife Plugin"
+  - "&e/tw start &7- Get a random wife for today"
+  - "&e/tw hate &7- Break up with your wife"
+  - "&e/tw kiss &7- Kiss your wife"
+  - "&e/tw molest &7- Tease your wife"
+  - "&e/tw hug &7- Hug your wife"
+  - "&e/tw bondage &7- SM interaction"
+  - "&e/tw caress &7- Caress your wife"
+  - "&e/tw info &7- View wife information"
+  - "&e/tw reload &7- Reload configuration (OP)"
+
+# Messages
+already-have-wife: "&cYou already have a wife today!"
+no-wife: "&cYou don't have a wife yet, use /tw start to get one!"
+wife-selected: "&aCongratulations! Your wife for today is: &6{wife}"
+wife-removed: "&cYou have broken up with your wife"
+config-reloaded: "&aConfiguration reloaded!"
+no-permission: "&cYou don't have permission to do that!"
+interaction-disabled: "&cThis interaction is disabled"
+
+# Interaction Messages
+interaction:
+  kiss: "&aYou kissed {player}, affection{change}"
+  molest: "&aYou teased {player}, affection{change}"
+  hug: "&aYou hugged {player}, affection{change}"
+  bondage: "&aYou had SM interaction with {player}, affection{change}"
+  caress: "&aYou caressed {player}, affection{change}"
+
+# Wife Information
+wife-info: "&6Your wife: &e{wife} &6| &eAffection: &a{affection}"
