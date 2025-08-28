@@ -56,7 +56,13 @@ sounds:
   enabled: true
   wife-selected: true
   interaction: true
-  
+
+语言文件
+插件支持多种语言，文件位于 /resources/languages/：
+zh_CN.yml - 简体中文
+zh_TW.yml - 繁体中文
+en.yml - 英文
+（推荐简体中文，毕竟作者就是中国的）
 
 兼容性
 服务端	支持情况	备注
